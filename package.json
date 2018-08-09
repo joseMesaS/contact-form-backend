@@ -1,7 +1,7 @@
 {
   "name": "nodemailer-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main":  "./target/index.js",
   "license": "MIT",
   "scripts": {
     "start": "nodemon .",
@@ -17,6 +17,7 @@
     "koa-bodyparser": "^4.2.1",
     "koa-multer": "^1.0.2",
     "koa-router": "^7.4.0",
+    "nodemailer": "^4.6.7",
     "nodemon": "^1.18.3",
     "routing-controllers": "^0.7.7",
     "typeorm": "^0.2.7"
