@@ -4,8 +4,8 @@ const nodemailer = require('nodemailer');
 const transport = {
     host: 'smtp.gmail.com',
     auth: {
-      user: process.env.user,
-      pass: process.env.pass
+      user: 'jose.solorzano.1720@gmail.com',
+      pass: 'jose1234solorzano'
     }
 }
 
